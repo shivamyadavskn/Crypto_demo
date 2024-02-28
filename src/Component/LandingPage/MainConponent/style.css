@@ -1,0 +1,16 @@
+.stroke-text{
+    -webkit-text-stroke: 2px var(--black);
+    -webkit-text-fill-color: var(--black);
+    transition: all 0.3s;
+}       
+.stroke-text:hover{
+    -webkit-text-stroke: 4px var(--black);
+    -webkit-text-fill-color: var(--white);
+    transition: all 0.3s;
+    text-shadow:
+       4px 4px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}       

@@ -1,0 +1,11 @@
+.coin-gain{
+    border: 2px solid var(--grey);
+}
+.coin-gain:hover{
+    border-color:var(--green);
+    transition: all 0.3s;
+}
+.coin-loss:hover{
+    border-color: var(--red)!important;
+    transition: all 0.3s;
+}
